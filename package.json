@@ -1,0 +1,41 @@
+{
+  "name": "blog_management",
+  "version": "1.0.0",
+  "description": "This is a blog management project",
+  "main": "node app.js",
+  "scripts": {
+    "test": "test.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "express-handlebars": "^8.0.3",
+    "express-rate-limit": "^8.2.1",
+    "express-validator": "^7.3.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "multer": "^2.0.2",
+    "mysql2": "^3.15.3",
+    "nanoid": "^5.1.6",
+    "nodemailer": "^7.0.11",
+    "socket.io": "^4.8.3",
+    "xss-clean": "^0.1.4"
+  },
+  "author": "developer",
+  "license": "ISC",
+  "keywords": [
+    "admin",
+    "server",
+    "development"
+  ]
+}
